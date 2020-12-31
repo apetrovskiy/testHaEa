@@ -10,4 +10,4 @@ test_data = [
 
 @pytest.mark.parametrize("array_a,array_c,array_b", test_data)
 def test_easy_sum_set(array_a: List[int], array_c: List[int], array_b: List[str]):
-    assert array_b == calculate_b(array_a, array_c)
+    assert len(array_b) == len(calculate_b(array_a, array_c)) assert all([a == b for a, b in zip(array_b, calculate_b(array_a, array_c))]
