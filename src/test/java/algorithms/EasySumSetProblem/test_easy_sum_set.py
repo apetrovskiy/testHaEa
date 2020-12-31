@@ -1,6 +1,6 @@
+from src.main.java.algorithms.EasySumSetProblem.solution3 import calculate_b
 import pytest
 from typing import List
-from src.main.algorithms.EasySumSetProblem.solution3 import calculate_b
 
 
 test_data = [
