@@ -24,12 +24,14 @@ def calculate_b(list_a: List[int], list_c: List[int]) -> Set[str]:
     # return set([calculate_item(c, list_a) for c in list_c])
     result_list = []
     print(len(list_c))
-    for index in range(len(list_c)):
-        candidate = list_c[index] - list_a[index]
-        if candidate in result_list:
-            continue
-        else:
-            result_list.append(candidate)
+    for index_c in range(len(list_c)):
+        for index_a in range(len(list_a)):
+            candidate = list_c[index_c] - list_a[index_a]
+            if candidate in result_list:
+                continue
+            else:
+                result_list.append(candidate)
+                break
     return set([str(x) for x in result_list])
 
 
