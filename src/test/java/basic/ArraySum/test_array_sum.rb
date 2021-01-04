@@ -1,6 +1,6 @@
 require 'rspec'
 require 'rspec/autorun'
-require 'rubygems'
+# require 'rubygems'
 require 'minitest/autorun'
 require_relative '../../../../main/java/basic/ArraySum/solution_array_sum'
 
