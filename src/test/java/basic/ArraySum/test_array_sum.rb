@@ -1,11 +1,11 @@
-# require 'rspec'
-# require 'rspec/autorun'
+require 'rspec'
+require 'rspec/autorun'
 require 'rubygems'
-require 'minitest/autorun'
+# require 'minitest/autorun'
 require_relative '../../../../main/java/basic/ArraySum/solution_array_sum'
 
-# RSpec.describe 'array sum' do
-describe 'array sum' do
+RSpec.describe 'array sum' do
+# describe 'array sum' do
   describe 'array sum method' do
     subject { solution_array_sum input }
 
