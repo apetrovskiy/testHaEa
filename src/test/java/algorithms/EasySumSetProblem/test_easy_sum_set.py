@@ -16,4 +16,5 @@ def test_easy_sum_set(array_a: List[int], array_c: List[int], array_b: List[str]
     print(f"expected = {array_b}")
     print(f"actual = {calculate_b(array_a, array_c)}")
     assert len(array_b) == len(calculate_b(array_a, array_c))
-    assert all([a == b for a, b in zip(array_b, calculate_b(array_a, array_c))])
+    assert all([a == b for a, b in zip(
+        array_b, calculate_b(array_a, array_c))])
