@@ -1,4 +1,8 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+
+
+// Add your instrumentation key or use the APPLICATIONINSIGHTSKEY environment variable on your production machine to start collecting data.
+var ai = require('applicationinsights');
+ai.setup(process.env.APPLICATIONINSIGHTSKEY || 'your_instrumentation_key').start();﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
