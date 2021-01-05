@@ -1,7 +1,7 @@
 require 'rspec'
 require 'rspec/autorun'
 # require 'rubygems'
-require 'minitest/autorun'
+# require 'minitest/autorun'
 require_relative '../../../../main/java/basic/ArraySum/solution_array_sum'
 
 RSpec.describe 'array sum' do
@@ -22,6 +22,7 @@ RSpec.describe 'array sum' do
   end
 end
 
+=begin
 class ArraySumTests < MiniTest::Unit::TestCase
   [
     [[1_000_000_001, 1_000_000_002, 1_000_000_003, 1_000_000_004, 1_000_000_005], 5_000_000_015],
@@ -32,3 +33,4 @@ class ArraySumTests < MiniTest::Unit::TestCase
     end
   end
 end
+=end
