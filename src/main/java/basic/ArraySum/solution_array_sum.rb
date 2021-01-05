@@ -11,3 +11,9 @@ print "Hi, #{name}.\n"           # Writing output to STDOUT
 def solution_array_sum(input_array)
     input_array.inject(0, :+)
 end
+
+=begin
+array_length = gets.chomp
+array = gets.split(" ").map(&:to_i)
+puts solution_array_sum(array)
+=end

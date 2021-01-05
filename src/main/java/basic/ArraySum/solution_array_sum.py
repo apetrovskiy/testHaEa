@@ -11,12 +11,11 @@ print('Hi, %s.' % name)         # Writing output to STDOUT
 from typing import List
 
 
-# # array_length = int(input())
-# # array = [int(x) for x in input().split(' ')]
-
-
 def solution_array_sum(input_array: List[int]) -> int:
     return sum(input_array)
 
-
-# # print(solution_array_sum(array))
+'''
+array_length = int(input())
+array = [int(x) for x in input().split(' ')]
+print(solution_array_sum(array))
+'''
