@@ -8,5 +8,6 @@ print('Hi, %s.' % name)         # Writing output to STDOUT
 '''
 
 # Write your code here
-def the_gcd_function():
-    return 1
+input()
+print(4)
+print(f"print('{input()}')")
