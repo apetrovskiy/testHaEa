@@ -1,4 +1,5 @@
-from src.main.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction.the_gcd_function import the_gcd_function
+from src.main.java.challenges.competitive.JanuaryCircuits21.\
+    a02TheGCDFunction.the_gcd_function import the_gcd_function
 import pytest
 
 

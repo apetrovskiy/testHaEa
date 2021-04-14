@@ -1,4 +1,5 @@
-from src.main.java.challenges.competitive.JanuaryCircuits21.a01AChessboard.a_chessboard import a_chessboard
+from src.main.java.challenges.competitive.JanuaryCircuits21.a01AChessboard.\
+    a_chessboard import a_chessboard
 from typing import List
 import pytest
 
