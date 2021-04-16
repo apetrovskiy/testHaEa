@@ -1,4 +1,81 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 7,
+  "items" : [ {
+    "uid" : "b881090df8b4cbffe8aba7541f5ea298",
+    "name" : "src.test.java.algorithms.EasySumSetProblem",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "48d0d99e1fdf44681dce40f5accae69b",
+    "name" : "src.test.java.algorithms.ProvidingGifts",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "f75d0859a12731f0979dd1f7e6d19133",
+    "name" : "src.test.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 10,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "ec6cac705b27d614864c6aea73261dd9",
+    "name" : "src.test.java.basic.ArraySum",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5bef1f1a5160667ee8f183032338a01c",
+    "name" : "src.test.java.challenges.competitive.JanuaryCircuits21.a01AChessboard",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "7550d61768b6846eeee8ceb9db758814",
+    "name" : "src.test.java.challenges.sample.LittleShinoAndCommonFactors",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "0a640d6fa25e215c4a6e4750c1440496",
+    "name" : "src.test.java.challenges.sample.FredoAndArrayUpdate",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

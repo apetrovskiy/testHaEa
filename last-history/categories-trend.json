@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 6,
+    "Test defects" : 10
+  }
+}, {
   "buildOrder" : 3,
   "reportUrl" : "https://apetrovskiy.github.io/testHaEa/3/",
   "reportName" : "Allure Report with history",

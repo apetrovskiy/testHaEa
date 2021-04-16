@@ -1,0 +1,59 @@
+{
+  "uid" : "5047c559d8f87203",
+  "name" : "test_array_sum[input_array0-5000000015]",
+  "fullName" : "src.test.java.basic.ArraySum.test_array_sum#test_array_sum",
+  "historyId" : "92658e4457688330288365f4d75ab800",
+  "time" : {
+    "start" : 1618612338991,
+    "stop" : 1618612338991,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.basic.ArraySum"
+  }, {
+    "name" : "suite",
+    "value" : "test_array_sum"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-651"
+  }, {
+    "name" : "thread",
+    "value" : "3142-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.basic.ArraySum.test_array_sum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "5000000015"
+  }, {
+    "name" : "input_array",
+    "value" : "[1000000001, 1000000002, 1000000003, 1000000004, 1000000005]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5047c559d8f87203.json",
+  "parameterValues" : [ "5000000015", "[1000000001, 1000000002, 1000000003, 1000000004, 1000000005]" ]
+}
