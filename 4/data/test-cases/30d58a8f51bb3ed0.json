@@ -1,0 +1,103 @@
+{
+  "uid" : "30d58a8f51bb3ed0",
+  "name" : "test_the_gcd_function[mzbmweyydiadtlcouegxdbyfwurpwbpuvhrfnuapwyndmhtqvimzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhgqqkmzbmweyydiadtluouegmdbyfwurpwbpuvhifnqapwyndmhtqvkmzbmwdyydiadtlcouegmdbyfwurpwbpuvhifnuapwynwmhtqvkmzbmweyxdiadtxcouegmdbzfwurpwbpuvhifnuapwyndfhtqvkmzbmweyydiadklcouegmdbyfwurpwbpuvlufnuapwyndmhtqvkmzbmweyydiaftlcouegmdbyfwgrpwbpuvhifpuapoyndmhtqvkmzbmweyydlaatlckuegmdbyfwurpwbpuvhifnuapwygdmhtqvkmzbaweyydiadtlcouegmdbyfwurpwbpuvvifnuapwyndmhtqvkmubmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkmjbmweyydiadtlcouegmdbyfwurpqbpuvhifnuipwyndmttqvkmzbmweyydiadtlcouelmdbyfwurpwbpuvhifnuapwyndmhtqvkmzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkmzbmwebydiadtlcouegmdbyfwurpwlpuvhifnuapwynmmhtqvkmzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwgndmhtqvkmzbrweyydiadtlcouegmybyfwurpwbpuvhifnuapwyndmhtrvkezbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkmzbmweyydiadtlcouwgmdbyfwurhwbpuvhinnuapwyndmhtqvkmzbmweyydiadtlcoeegmdbyfwcrpwbpuvhifnuapwyndmhtmvkmzbmweyydiadtlcouogmdbyfwurpwbpuvhiznuapwynqmhtqvk]",
+  "fullName" : "src.test.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction.test_the_gcd_function#test_the_gcd_function",
+  "historyId" : "34c90b0931898ecf68320c2cbaaf55cd",
+  "time" : {
+    "start" : 1618940594677,
+    "stop" : 1618940594677,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+  "statusTrace" : "input = 'mzbmweyydiadtlcouegxdbyfwurpwbpuvhrfnuapwyndmhtqvimzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhgqqkmzbmweyydiadtluou...vhinnuapwyndmhtqvkmzbmweyydiadtlcoeegmdbyfwcrpwbpuvhifnuapwyndmhtmvkmzbmweyydiadtlcouogmdbyfwurpwbpuvhiznuapwynqmhtqvk'\n\n    @pytest.mark.parametrize(\"input\", test_data)\n    def test_the_gcd_function(input: str):\n>       assert 1 == the_gcd_function(input)\nE       TypeError: the_gcd_function() takes 0 positional arguments but 1 was given\n\nsrc/test/java/challenges/competitive/JanuaryCircuits21/a02TheGCDFunction/test_the_gcd_function.py:22: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction"
+  }, {
+    "name" : "suite",
+    "value" : "test_the_gcd_function"
+  }, {
+    "name" : "host",
+    "value" : "fv-az269-57"
+  }, {
+    "name" : "thread",
+    "value" : "3262-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction.test_the_gcd_function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "input",
+    "value" : "'mzbmweyydiadtlcouegxdbyfwurpwbpuvhrfnuapwyndmhtqvimzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhgqqkmzbmweyydiadtluouegmdbyfwurpwbpuvhifnqapwyndmhtqvkmzbmwdyydiadtlcouegmdbyfwurpwbpuvhifnuapwynwmhtqvkmzbmweyxdiadtxcouegmdbzfwurpwbpuvhifnuapwyndfhtqvkmzbmweyydiadklcouegmdbyfwurpwbpuvlufnuapwyndmhtqvkmzbmweyydiaftlcouegmdbyfwgrpwbpuvhifpuapoyndmhtqvkmzbmweyydlaatlckuegmdbyfwurpwbpuvhifnuapwygdmhtqvkmzbaweyydiadtlcouegmdbyfwurpwbpuvvifnuapwyndmhtqvkmubmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkmjbmweyydiadtlcouegmdbyfwurpqbpuvhifnuipwyndmttqvkmzbmweyydiadtlcouelmdbyfwurpwbpuvhifnuapwyndmhtqvkmzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkmzbmwebydiadtlcouegmdbyfwurpwlpuvhifnuapwynmmhtqvkmzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwgndmhtqvkmzbrweyydiadtlcouegmybyfwurpwbpuvhifnuapwyndmhtrvkezbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkmzbmweyydiadtlcouwgmdbyfwurhwbpuvhinnuapwyndmhtqvkmzbmweyydiadtlcoeegmdbyfwcrpwbpuvhifnuapwyndmhtmvkmzbmweyydiadtlcouogmdbyfwurpwbpuvhiznuapwynqmhtqvk'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "81976ced6e27cf55",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/3//#testresult/81976ced6e27cf55",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618939645450,
+          "stop" : 1618939645451,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "11fe932cad4a913c",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/11fe932cad4a913c",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618933916036,
+          "stop" : 1618933916036,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1445d05b7c86b3c3",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/1445d05b7c86b3c3",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618612339005,
+          "stop" : 1618612339005,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "30d58a8f51bb3ed0.json",
+  "parameterValues" : [ "'mzbmweyydiadtlcouegxdbyfwurpwbpuvhrfnuapwyndmhtqvimzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhgqqkmzbmweyydiadtluouegmdbyfwurpwbpuvhifnqapwyndmhtqvkmzbmwdyydiadtlcouegmdbyfwurpwbpuvhifnuapwynwmhtqvkmzbmweyxdiadtxcouegmdbzfwurpwbpuvhifnuapwyndfhtqvkmzbmweyydiadklcouegmdbyfwurpwbpuvlufnuapwyndmhtqvkmzbmweyydiaftlcouegmdbyfwgrpwbpuvhifpuapoyndmhtqvkmzbmweyydlaatlckuegmdbyfwurpwbpuvhifnuapwygdmhtqvkmzbaweyydiadtlcouegmdbyfwurpwbpuvvifnuapwyndmhtqvkmubmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkmjbmweyydiadtlcouegmdbyfwurpqbpuvhifnuipwyndmttqvkmzbmweyydiadtlcouelmdbyfwurpwbpuvhifnuapwyndmhtqvkmzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkmzbmwebydiadtlcouegmdbyfwurpwlpuvhifnuapwynmmhtqvkmzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwgndmhtqvkmzbrweyydiadtlcouegmybyfwurpwbpuvhifnuapwyndmhtrvkezbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkmzbmweyydiadtlcouwgmdbyfwurhwbpuvhinnuapwyndmhtqvkmzbmweyydiadtlcoeegmdbyfwcrpwbpuvhifnuapwyndmhtmvkmzbmweyydiadtlcouogmdbyfwurpwbpuvhiznuapwynqmhtqvk'" ]
+}
