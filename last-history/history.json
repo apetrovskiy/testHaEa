@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "44ba55d5147258aa",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/44ba55d5147258aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618933916031,
+        "stop" : 1618933916031,
+        "duration" : 0
+      }
+    }, {
       "uid" : "d3dd4e43f69780f6",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/d3dd4e43f69780f6",
       "status" : "passed",
@@ -19,58 +28,26 @@
       }
     } ]
   },
-  "34c90b0931898ecf68320c2cbaaf55cd" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1445d05b7c86b3c3",
-      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/1445d05b7c86b3c3",
-      "status" : "broken",
-      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
-      "time" : {
-        "start" : 1618612339005,
-        "stop" : 1618612339005,
-        "duration" : 0
-      }
-    } ]
-  },
-  "dda9b486ffa2ed1313f0e8a509a2fc9a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9df860ed81f31aa",
-      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/9df860ed81f31aa",
-      "status" : "broken",
-      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
-      "time" : {
-        "start" : 1618612339018,
-        "stop" : 1618612339019,
-        "duration" : 1
-      }
-    } ]
-  },
   "8e9bf8df3979cb07508981dffe6b2c46" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8e91ffb81e77caf",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/8e91ffb81e77caf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [2, 3, 3, 4, 5, 5, ...] == [2, 3, 3, 4, 4, 5, ...]\n  At index 4 diff: 5 != 4\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1618933916018,
+        "stop" : 1618933916018,
+        "duration" : 0
+      }
+    }, {
       "uid" : "3a7ca7c5f9123d1a",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/3a7ca7c5f9123d1a",
       "status" : "failed",
@@ -82,58 +59,26 @@
       }
     } ]
   },
-  "17437f8c12c23a81c2093b944733044b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a1f208c47812291a",
-      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/a1f208c47812291a",
-      "status" : "broken",
-      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
-      "time" : {
-        "start" : 1618612339032,
-        "stop" : 1618612339032,
-        "duration" : 0
-      }
-    } ]
-  },
-  "b760711dd661b36d06478658c78c117c" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "185848c6531aa5ff",
-      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/185848c6531aa5ff",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = all([False, True])",
-      "time" : {
-        "start" : 1618612338930,
-        "stop" : 1618612338930,
-        "duration" : 0
-      }
-    } ]
-  },
   "67c739e8596e2859f0b1aecfd240a563" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "46dde656ea0dad04",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/46dde656ea0dad04",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618933916033,
+        "stop" : 1618933916033,
+        "duration" : 0
+      }
+    }, {
       "uid" : "83ba79d070e6d2e2",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/83ba79d070e6d2e2",
       "status" : "broken",
@@ -145,36 +90,25 @@
       }
     } ]
   },
-  "a661c023c9b7bb0cacafcafc0816d07d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "436a2fdd0d0baae8",
-      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/436a2fdd0d0baae8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1618612338978,
-        "stop" : 1618612338978,
-        "duration" : 0
-      }
-    } ]
-  },
   "bc2b06c9a15098092f4d334c8eb38226" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7beb4a026d1d1622",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/7beb4a026d1d1622",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618933916027,
+        "stop" : 1618933916027,
+        "duration" : 0
+      }
+    }, {
       "uid" : "7692053a16f56191",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/7692053a16f56191",
       "status" : "passed",
@@ -185,37 +119,26 @@
       }
     } ]
   },
-  "d6001d9f16c9a75e6e7986691a48ffdb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "67e2caf4691bd2ba",
-      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/67e2caf4691bd2ba",
-      "status" : "broken",
-      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
-      "time" : {
-        "start" : 1618612339029,
-        "stop" : 1618612339029,
-        "duration" : 0
-      }
-    } ]
-  },
   "239e8f2959074b654e5e03bb9f3467b9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3fc7f8fefacf4cd3",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/3fc7f8fefacf4cd3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618933916051,
+        "stop" : 1618933916051,
+        "duration" : 0
+      }
+    }, {
       "uid" : "658bc23fef4c1030",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/658bc23fef4c1030",
       "status" : "broken",
@@ -230,13 +153,23 @@
   "37b0062081598b6d36004050e1e2fcf7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5e93fb53e2e60da6",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/5e93fb53e2e60da6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618933916048,
+        "stop" : 1618933916048,
+        "duration" : 0
+      }
+    }, {
       "uid" : "f714b9bbcb85dbb",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/f714b9bbcb85dbb",
       "status" : "broken",
@@ -251,13 +184,23 @@
   "1fcba78a1670adfb1a6783e8d017e17e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "89e3f9eef7fed8e3",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/89e3f9eef7fed8e3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618933916041,
+        "stop" : 1618933916041,
+        "duration" : 0
+      }
+    }, {
       "uid" : "2570dae956b631f5",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/2570dae956b631f5",
       "status" : "broken",
@@ -272,13 +215,23 @@
   "3b4883d49389c1076d51b0bd34087e3d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b776d4e062a652c",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/b776d4e062a652c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618933916043,
+        "stop" : 1618933916043,
+        "duration" : 0
+      }
+    }, {
       "uid" : "72284489e64161a5",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/72284489e64161a5",
       "status" : "broken",
@@ -295,11 +248,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ad4634e2ae562d70",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/ad4634e2ae562d70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618933916029,
+        "stop" : 1618933916029,
+        "duration" : 0
+      }
+    }, {
       "uid" : "869ae641437d2f24",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/869ae641437d2f24",
       "status" : "passed",
@@ -312,14 +274,24 @@
   },
   "f00c381cf24c2ec40d32ccc8079fb1a2" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ead25310dfb5d8a7",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/ead25310dfb5d8a7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [1, 1, 1, 1, 1, 1, ...] == [3874, 998, 2...53, 1827, ...]\n  At index 0 diff: 1 != 3874\n  Left contains 31 more items, first extra item: 1\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1618933916021,
+        "stop" : 1618933916021,
+        "duration" : 0
+      }
+    }, {
       "uid" : "92766802d2832ed4",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/92766802d2832ed4",
       "status" : "failed",
@@ -331,16 +303,302 @@
       }
     } ]
   },
+  "55bda4dbd0f6667ef50b08805eec898c" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5c36a80fc03a08a1",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/5c36a80fc03a08a1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+      "time" : {
+        "start" : 1618933916004,
+        "stop" : 1618933916004,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eed5ac6bfad40968",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/eed5ac6bfad40968",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+      "time" : {
+        "start" : 1618612338962,
+        "stop" : 1618612338962,
+        "duration" : 0
+      }
+    } ]
+  },
+  "81cd30e99d373680bc067fcf5d266c25" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "ff379326658cec46",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/ff379326658cec46",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 4\n +  where 1 = len(['1'])\n +  and   4 = len({'2', '3', '4', '5'})\n +    where {'2', '3', '4', '5'} = calculate_b([1, 3, 2, 5, 4], [2, 3, 4, 5, 6])",
+      "time" : {
+        "start" : 1618933916012,
+        "stop" : 1618933916012,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "671ba21d54b009f5",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/671ba21d54b009f5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 4\n +  where 1 = len(['1'])\n +  and   4 = len({'2', '3', '4', '5'})\n +    where {'2', '3', '4', '5'} = calculate_b([1, 3, 2, 5, 4], [2, 3, 4, 5, 6])",
+      "time" : {
+        "start" : 1618612338972,
+        "stop" : 1618612338973,
+        "duration" : 1
+      }
+    } ]
+  },
+  "aea9ff9698e4a1e5bbba8875430784b2" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8e7514f414fb7f20",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/8e7514f414fb7f20",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 5\n +  where 2 = len(['2', '4'])\n +  and   5 = len({'1', '2', '3', '4', '5'})\n +    where {'1', '2', '3', '4', '5'} = calculate_b([4, 3, 5, 1], [3, 5, 6, 7, 8, 9])",
+      "time" : {
+        "start" : 1618933916008,
+        "stop" : 1618933916008,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c6af3de69ee870a7",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/c6af3de69ee870a7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 5\n +  where 2 = len(['2', '4'])\n +  and   5 = len({'1', '2', '3', '4', '5'})\n +    where {'1', '2', '3', '4', '5'} = calculate_b([4, 3, 5, 1], [3, 5, 6, 7, 8, 9])",
+      "time" : {
+        "start" : 1618612338967,
+        "stop" : 1618612338967,
+        "duration" : 0
+      }
+    } ]
+  },
+  "34c90b0931898ecf68320c2cbaaf55cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "11fe932cad4a913c",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/11fe932cad4a913c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618933916036,
+        "stop" : 1618933916036,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1445d05b7c86b3c3",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/1445d05b7c86b3c3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618612339005,
+        "stop" : 1618612339005,
+        "duration" : 0
+      }
+    } ]
+  },
+  "dda9b486ffa2ed1313f0e8a509a2fc9a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c0ceb574fee30207",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/c0ceb574fee30207",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618933916046,
+        "stop" : 1618933916046,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9df860ed81f31aa",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/9df860ed81f31aa",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618612339018,
+        "stop" : 1618612339019,
+        "duration" : 1
+      }
+    } ]
+  },
+  "17437f8c12c23a81c2093b944733044b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b212e12688bcc056",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/b212e12688bcc056",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618933916056,
+        "stop" : 1618933916056,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a1f208c47812291a",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/a1f208c47812291a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618612339032,
+        "stop" : 1618612339032,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b760711dd661b36d06478658c78c117c" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "dd5525b422f88837",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/dd5525b422f88837",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = all([False, True])",
+      "time" : {
+        "start" : 1618933915980,
+        "stop" : 1618933915980,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "185848c6531aa5ff",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/185848c6531aa5ff",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = all([False, True])",
+      "time" : {
+        "start" : 1618612338930,
+        "stop" : 1618612338930,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a661c023c9b7bb0cacafcafc0816d07d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4a81949c3f0fb108",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/4a81949c3f0fb108",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618933916016,
+        "stop" : 1618933916016,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "436a2fdd0d0baae8",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/436a2fdd0d0baae8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618612338978,
+        "stop" : 1618612338978,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d6001d9f16c9a75e6e7986691a48ffdb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d283aefdefcbccd6",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/d283aefdefcbccd6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618933916053,
+        "stop" : 1618933916053,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "67e2caf4691bd2ba",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/67e2caf4691bd2ba",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618612339029,
+        "stop" : 1618612339029,
+        "duration" : 0
+      }
+    } ]
+  },
   "00b904e98df88e29961cf788334708b0" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1528cc858ad6734",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/1528cc858ad6734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618933916064,
+        "stop" : 1618933916064,
+        "duration" : 0
+      }
+    }, {
       "uid" : "c5410b49def881de",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/c5410b49def881de",
       "status" : "passed",
@@ -356,11 +614,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c25eea0423ec5462",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/c25eea0423ec5462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618933916025,
+        "stop" : 1618933916025,
+        "duration" : 0
+      }
+    }, {
       "uid" : "5047c559d8f87203",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/5047c559d8f87203",
       "status" : "passed",
@@ -374,13 +641,23 @@
   "f524ca47e1750195aa080d23005f3049" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4cbe9b4cb3d93cb3",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/4cbe9b4cb3d93cb3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1618933916038,
+        "stop" : 1618933916038,
+        "duration" : 0
+      }
+    }, {
       "uid" : "d342e77eae872874",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/d342e77eae872874",
       "status" : "broken",
@@ -392,58 +669,25 @@
       }
     } ]
   },
-  "55bda4dbd0f6667ef50b08805eec898c" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "eed5ac6bfad40968",
-      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/eed5ac6bfad40968",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
-      "time" : {
-        "start" : 1618612338962,
-        "stop" : 1618612338962,
-        "duration" : 0
-      }
-    } ]
-  },
-  "81cd30e99d373680bc067fcf5d266c25" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "671ba21d54b009f5",
-      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/671ba21d54b009f5",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert 1 == 4\n +  where 1 = len(['1'])\n +  and   4 = len({'2', '3', '4', '5'})\n +    where {'2', '3', '4', '5'} = calculate_b([1, 3, 2, 5, 4], [2, 3, 4, 5, 6])",
-      "time" : {
-        "start" : 1618612338972,
-        "stop" : 1618612338973,
-        "duration" : 1
-      }
-    } ]
-  },
   "5fae405200ad8d254215641148437eba" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3ae028e11e824eed",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/3ae028e11e824eed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618933916061,
+        "stop" : 1618933916062,
+        "duration" : 1
+      }
+    }, {
       "uid" : "96aa2747a59c3d23",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/96aa2747a59c3d23",
       "status" : "passed",
@@ -459,11 +703,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f00e7e1c2c9eab13",
+      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/f00e7e1c2c9eab13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618933916059,
+        "stop" : 1618933916059,
+        "duration" : 0
+      }
+    }, {
       "uid" : "43b8ad7ea0876a7b",
       "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/43b8ad7ea0876a7b",
       "status" : "passed",
@@ -471,27 +724,6 @@
         "start" : 1618612339036,
         "stop" : 1618612339037,
         "duration" : 1
-      }
-    } ]
-  },
-  "aea9ff9698e4a1e5bbba8875430784b2" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c6af3de69ee870a7",
-      "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/c6af3de69ee870a7",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert 2 == 5\n +  where 2 = len(['2', '4'])\n +  and   5 = len({'1', '2', '3', '4', '5'})\n +    where {'1', '2', '3', '4', '5'} = calculate_b([4, 3, 5, 1], [3, 5, 6, 7, 8, 9])",
-      "time" : {
-        "start" : 1618612338967,
-        "stop" : 1618612338967,
-        "duration" : 0
       }
     } ]
   }

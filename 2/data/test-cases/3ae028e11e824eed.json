@@ -1,0 +1,98 @@
+{
+  "uid" : "3ae028e11e824eed",
+  "name" : "test_find_factors_version01[10-15-2]",
+  "fullName" : "src.test.java.challenges.sample.LittleShinoAndCommonFactors.test_little_shino_and_common_factors#test_find_factors_version01",
+  "historyId" : "5fae405200ad8d254215641148437eba",
+  "time" : {
+    "start" : 1618933916061,
+    "stop" : 1618933916062,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5c3d7ffcbd04318e",
+      "name" : "stdout",
+      "source" : "5c3d7ffcbd04318e.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.sample.LittleShinoAndCommonFactors"
+  }, {
+    "name" : "suite",
+    "value" : "test_little_shino_and_common_factors"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-561"
+  }, {
+    "name" : "thread",
+    "value" : "3074-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.sample.LittleShinoAndCommonFactors.test_little_shino_and_common_factors"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "2"
+  }, {
+    "name" : "number1",
+    "value" : "10"
+  }, {
+    "name" : "number2",
+    "value" : "15"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "96aa2747a59c3d23",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/96aa2747a59c3d23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618612339040,
+          "stop" : 1618612339040,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3ae028e11e824eed.json",
+  "parameterValues" : [ "2", "10", "15" ]
+}
