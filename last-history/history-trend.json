@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 3,
+  "reportUrl" : "https://apetrovskiy.github.io/testHaEa/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 6,
+    "broken" : 10,
+    "skipped" : 0,
+    "passed" : 8,
+    "unknown" : 0,
+    "total" : 24
+  }
+}, {
   "buildOrder" : 2,
   "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2/",
   "reportName" : "Allure Report with history",
