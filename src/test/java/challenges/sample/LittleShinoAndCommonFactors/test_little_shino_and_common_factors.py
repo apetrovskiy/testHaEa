@@ -1,7 +1,7 @@
-from src.main.java.challenges.sample.LittleShinoAndCommonFactors.\
-    little_shino_and_common_factors import little_shino_and_common_factors
-from typing import List
 import pytest
+from typing import List
+from src.main.java.challenges.sample.LittleShinoAndCommonFactors. \
+    little_shino_and_common_factors import little_shino_and_common_factors
 
 
 test_data = [

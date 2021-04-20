@@ -1,4 +1,5 @@
-from src.main.java.algorithms.ProvidingGifts.providing_gifts import providing_gifts
+from src.main.java.algorithms.ProvidingGifts.providing_gifts \
+    import providing_gifts
 from typing import List
 import pytest
 
