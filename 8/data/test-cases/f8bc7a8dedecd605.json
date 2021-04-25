@@ -1,0 +1,152 @@
+{
+  "uid" : "f8bc7a8dedecd605",
+  "name" : "test_find_factors_version01[10-15-2]",
+  "fullName" : "src.test.java.challenges.sample.LittleShinoAndCommonFactors.test_little_shino_and_common_factors#test_find_factors_version01",
+  "historyId" : "5fae405200ad8d254215641148437eba",
+  "time" : {
+    "start" : 1619383741203,
+    "stop" : 1619383741203,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f093ce82d76c2baa",
+      "name" : "stdout",
+      "source" : "f093ce82d76c2baa.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.sample.LittleShinoAndCommonFactors"
+  }, {
+    "name" : "suite",
+    "value" : "test_little_shino_and_common_factors"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-447"
+  }, {
+    "name" : "thread",
+    "value" : "2202-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.sample.LittleShinoAndCommonFactors.test_little_shino_and_common_factors"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "2"
+  }, {
+    "name" : "number1",
+    "value" : "10"
+  }, {
+    "name" : "number2",
+    "value" : "15"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "fd167a0db08fd5c3",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/7//#testresult/fd167a0db08fd5c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619266377885,
+          "stop" : 1619266377885,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a32909b44e3ea15d",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/6//#testresult/a32909b44e3ea15d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618947416703,
+          "stop" : 1618947416703,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5d1152de6a6b4a22",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/5//#testresult/5d1152de6a6b4a22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618941875444,
+          "stop" : 1618941875445,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d850e87cae27bbac",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/4//#testresult/d850e87cae27bbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618940594710,
+          "stop" : 1618940594710,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "82619b6072a68990",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/3//#testresult/82619b6072a68990",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618939645500,
+          "stop" : 1618939645501,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3ae028e11e824eed",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/3ae028e11e824eed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618933916061,
+          "stop" : 1618933916062,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "96aa2747a59c3d23",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/96aa2747a59c3d23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618612339040,
+          "stop" : 1618612339040,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f8bc7a8dedecd605.json",
+  "parameterValues" : [ "2", "10", "15" ]
+}

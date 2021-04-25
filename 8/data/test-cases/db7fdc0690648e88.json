@@ -1,0 +1,167 @@
+{
+  "uid" : "db7fdc0690648e88",
+  "name" : "test_easy_sum_set[array_a1-array_c1-array_b1]",
+  "fullName" : "src.test.java.algorithms.EasySumSetProblem.test_easy_sum_set#test_easy_sum_set",
+  "historyId" : "55bda4dbd0f6667ef50b08805eec898c",
+  "time" : {
+    "start" : 1619383741137,
+    "stop" : 1619383741137,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+  "statusTrace" : "array_a = [3], array_c = [5, 6], array_b = ['2', '3']\n\n    @pytest.mark.parametrize(\"array_a,array_c,array_b\", test_data)\n    def test_easy_sum_set(array_a: List[int],\n                          array_c: List[int], array_b: List[str]):\n        print(f\"expected = {array_b}\")\n        print(f\"actual = {calculate_b(array_a, array_c)}\")\n>       assert len(array_b) == len(calculate_b(array_a, array_c))\nE       AssertionError: assert 2 == 1\nE        +  where 2 = len(['2', '3'])\nE        +  and   1 = len({'3'})\nE        +    where {'3'} = calculate_b([3], [5, 6])\n\nsrc/test/java/algorithms/EasySumSetProblem/test_easy_sum_set.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+    "statusTrace" : "array_a = [3], array_c = [5, 6], array_b = ['2', '3']\n\n    @pytest.mark.parametrize(\"array_a,array_c,array_b\", test_data)\n    def test_easy_sum_set(array_a: List[int],\n                          array_c: List[int], array_b: List[str]):\n        print(f\"expected = {array_b}\")\n        print(f\"actual = {calculate_b(array_a, array_c)}\")\n>       assert len(array_b) == len(calculate_b(array_a, array_c))\nE       AssertionError: assert 2 == 1\nE        +  where 2 = len(['2', '3'])\nE        +  and   1 = len({'3'})\nE        +    where {'3'} = calculate_b([3], [5, 6])\n\nsrc/test/java/algorithms/EasySumSetProblem/test_easy_sum_set.py:20: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3615a0dca0164064",
+      "name" : "stdout",
+      "source" : "3615a0dca0164064.txt",
+      "type" : "text/plain",
+      "size" : 37
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.algorithms.EasySumSetProblem"
+  }, {
+    "name" : "suite",
+    "value" : "test_easy_sum_set"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-447"
+  }, {
+    "name" : "thread",
+    "value" : "2202-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.algorithms.EasySumSetProblem.test_easy_sum_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "array_a",
+    "value" : "[3]"
+  }, {
+    "name" : "array_b",
+    "value" : "['2', '3']"
+  }, {
+    "name" : "array_c",
+    "value" : "[5, 6]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "1d8dd29ad402cef",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/7//#testresult/1d8dd29ad402cef",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+        "time" : {
+          "start" : 1619266377822,
+          "stop" : 1619266377822,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "638dd8724c1d1e07",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/6//#testresult/638dd8724c1d1e07",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+        "time" : {
+          "start" : 1618947416613,
+          "stop" : 1618947416613,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e0a4b32e9ebaed41",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/5//#testresult/e0a4b32e9ebaed41",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+        "time" : {
+          "start" : 1618941875353,
+          "stop" : 1618941875353,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7acc551c216e8ec0",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/4//#testresult/7acc551c216e8ec0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+        "time" : {
+          "start" : 1618940594638,
+          "stop" : 1618940594638,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7eeb20ea36255039",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/3//#testresult/7eeb20ea36255039",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+        "time" : {
+          "start" : 1618939645393,
+          "stop" : 1618939645393,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5c36a80fc03a08a1",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/5c36a80fc03a08a1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+        "time" : {
+          "start" : 1618933916004,
+          "stop" : 1618933916004,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "eed5ac6bfad40968",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/eed5ac6bfad40968",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 == 1\n +  where 2 = len(['2', '3'])\n +  and   1 = len({'3'})\n +    where {'3'} = calculate_b([3], [5, 6])",
+        "time" : {
+          "start" : 1618612338962,
+          "stop" : 1618612338962,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "db7fdc0690648e88.json",
+  "parameterValues" : [ "[3]", "['2', '3']", "[5, 6]" ]
+}
