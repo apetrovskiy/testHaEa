@@ -9,7 +9,7 @@ scalaVersion := "2.13.5"
 
 // Lines like the above defining `scalaVersion` are called "settings". Settings
 // are key/value pairs. In the case of `scalaVersion`, the key is "scalaVersion"
-// and the value is "2.13.1"
+// and the value is "2.13.3"
 
 // It's possible to define many kinds of settings, such as:
 
@@ -71,7 +71,7 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.2" % "test"
 //   settings(
 //     inThisBuild(List(
 //       organization := "ch.epfl.scala",
-//       scalaVersion := "2.13.1"
+//       scalaVersion := "2.13.3"
 //     )),
 //     name := "hello-world"
 //   )
