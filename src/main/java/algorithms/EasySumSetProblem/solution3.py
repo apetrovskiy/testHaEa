@@ -4,7 +4,8 @@
 name = input()                  # Reading input from STDIN
 print('Hi, %s.' % name)         # Writing output to STDOUT
 
-# Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
+# Warning: Printing unwanted or ill-formatted
+# data to output will cause the test cases to fail
 '''
 
 # Write your code here
@@ -15,9 +16,12 @@ def calculate_b(list_a: List[int], list_c: List[int]) -> Set[str]:
     # result_list = [list_c[0] - list_a[0]]
     # for index_c in range(1, len(list_c)):
     #     # print(index_c)
-    #     # print(f"candidates are {[a + b for a in list_a for b in result_list]}")
-    #     # print(f"not in? {list_c[index_c] not in [a + b for a in list_a for b in result_list]}")
-    #     if list_c[index_c] not in [a + b for a in list_a for b in result_list]:
+    #     # print(f"candidates are {[a + b for a
+    # in list_a for b in result_list]}")
+    #     # print(f"not in? {list_c[index_c] not
+    # in [a + b for a in list_a for b in result_list]}")
+    #     if list_c[index_c] not in [a + b for a
+    # in list_a for b in result_list]:
     #         for index_a in range(len(list_a)):
     #             candidate = list_c[index_c] - list_a[index_a]
     #             result_list.append(candidate)
@@ -37,9 +41,12 @@ def calculate_b(list_a: List[int], list_c: List[int]) -> Set[str]:
     result_list = []
     for index_c in range(1, len(list_c)):
         # print(index_c)
-        # print(f"candidates are {[a + b for a in list_a for b in result_list]}")
-        # print(f"not in? {list_c[index_c] not in [a + b for a in list_a for b in result_list]}")
-        # if list_c[index_c] not in [a + b for a in list_a for b in result_list]:
+        # print(f"candidates are {[a + b for a
+        # in list_a for b in result_list]}")
+        # print(f"not in? {list_c[index_c] not
+        # in [a + b for a in list_a for b in result_list]}")
+        # if list_c[index_c] not in [a + b for a
+        # in list_a for b in result_list]:
         for index_a in range(len(list_a)):
             if list_c[index_c] > list_a[index_a]:
                 candidate = list_c[index_c] - list_a[index_a]

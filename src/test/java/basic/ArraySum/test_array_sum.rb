@@ -16,7 +16,7 @@ RSpec.describe 'array sum' do
       it "when the input is #{input}" do
         actual_result = solution_array_sum(input)
         expect(actual_result).to be == expected_output
-        expect(solution_array_sum(input)).to eql expected_output
+        expect(actual_result).to eql expected_output
       end
     end
   end

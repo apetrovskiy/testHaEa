@@ -1,6 +1,7 @@
-from src.main.java.challenges.sample.LittleShinoAndCommonFactors.little_shino_and_common_factors import little_shino_and_common_factors
-from typing import List
 import pytest
+from typing import List
+from src.main.java.challenges.sample.LittleShinoAndCommonFactors. \
+    little_shino_and_common_factors import little_shino_and_common_factors
 
 
 test_data = [
@@ -13,5 +14,6 @@ test_data = [
 
 
 @pytest.mark.parametrize("number1,number2,expected_result", test_data)
-def test_find_factors_version01(number1: int, number2: int, expected_result: List[int]):
+def test_find_factors_version01(number1: int,
+                                number2: int, expected_result: List[int]):
     assert expected_result == little_shino_and_common_factors(number1, number2)

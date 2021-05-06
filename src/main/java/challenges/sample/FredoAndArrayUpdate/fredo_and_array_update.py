@@ -4,10 +4,13 @@
 name = input()                  # Reading input from STDIN
 print('Hi, %s.' % name)         # Writing output to STDOUT
 
-# Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
+# Warning: Printing unwanted or
+# ill-formatted data to output will cause the test cases to fail
 '''
 
 # Write your code here
+
+
 def fredo_and_array_update(number, data):
     result = 0
     array_sum = sum(data)
