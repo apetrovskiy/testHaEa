@@ -1,0 +1,203 @@
+{
+  "uid" : "313622e129d9e100",
+  "name" : "test_the_gcd_function[mzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkgkbhtytszotwflegsjzzszfwtzfpnscguemwrczqxycivdqnkypnxnnpmuduhznoaquudhavrncwfwujpcmiggjmcmkkbnjfeodxkgjgwxtrxingiqquhuwqhdswxxrxuzzfhkplwunfagppcoildagktgdarveusjuqfistulgbglwmfgzrnyxryetwzhlnfewczmnoozlqatugmdjwgzcfabbkoxyjxkatjmpprswkdkobdagwdwxsufeesrvncbszcepigpbzuzoootorzfskcwbqorvwdrmklfdczatfarqdkelalxzxillkfdvpfpxabqlngdscrentzamztvvcvrtcmbqlizijdwtuyfrxolsysxlfebpolcmqsppmrfkyunydtmwbexsngxhwvroandfqjamzkpttslildlrkjoyrpxugiceahgiakevsjoadmkfnkswrawkjxwcmcciabzbrskzazjqtlkiqydptpkcsdgcqjshzndpvannrywfrnrghljjqrxpxnlkcwdpdkswvtxganwwyoosxtnexeezjxouyfjhnwpqfxexzxfolpcfblpncetyhtrwxkbosccskxbuvcrosavnpxzoeoyyghbbqkflsutpwmhqwkvirmlfcpidlqyikzmnttaifcbopnwezesomkxhaiafmvkbjaisyrbtultpnxbcjmornqumatserhieqggrivouwfnbnghdfallcprvngikcamvprzaeapqmilwkbkgogocniaaisorfqxzjztvcgvzlcedwnezbwxmpobmrvxaskwvvwquudrnwhmmzheqxiwhfuxavlwftgyxxhpygspvwdnvmgnwnpkdrnznzvrkmjjmwisyrdkodoafwsjfuvmeewpdwpiymwbhoxebjibxphiefgtsawcdivtltrshjqnkkmdtjgs0]",
+  "fullName" : "src.test.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction.test_the_gcd_function#test_the_gcd_function",
+  "historyId" : "d6001d9f16c9a75e6e7986691a48ffdb",
+  "time" : {
+    "start" : 1620394206433,
+    "stop" : 1620394206434,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+  "statusTrace" : "input = 'mzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkgkbhtytszotwflegsjzzszfwtzfpnscguemwrczqxycivdqnkypnxnnpmuduhznoaqu...iwhfuxavlwftgyxxhpygspvwdnvmgnwnpkdrnznzvrkmjjmwisyrdkodoafwsjfuvmeewpdwpiymwbhoxebjibxphiefgtsawcdivtltrshjqnkkmdtjgs'\n\n    @pytest.mark.parametrize(\"input\", test_data)\n    def test_the_gcd_function(input: str):\n>       assert 1 == the_gcd_function(input)\nE       TypeError: the_gcd_function() takes 0 positional arguments but 1 was given\n\nsrc/test/java/challenges/competitive/JanuaryCircuits21/a02TheGCDFunction/test_the_gcd_function.py:22: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction"
+  }, {
+    "name" : "suite",
+    "value" : "test_the_gcd_function"
+  }, {
+    "name" : "host",
+    "value" : "fv-az275-496"
+  }, {
+    "name" : "thread",
+    "value" : "2378-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction.test_the_gcd_function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "input",
+    "value" : "'mzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkgkbhtytszotwflegsjzzszfwtzfpnscguemwrczqxycivdqnkypnxnnpmuduhznoaquudhavrncwfwujpcmiggjmcmkkbnjfeodxkgjgwxtrxingiqquhuwqhdswxxrxuzzfhkplwunfagppcoildagktgdarveusjuqfistulgbglwmfgzrnyxryetwzhlnfewczmnoozlqatugmdjwgzcfabbkoxyjxkatjmpprswkdkobdagwdwxsufeesrvncbszcepigpbzuzoootorzfskcwbqorvwdrmklfdczatfarqdkelalxzxillkfdvpfpxabqlngdscrentzamztvvcvrtcmbqlizijdwtuyfrxolsysxlfebpolcmqsppmrfkyunydtmwbexsngxhwvroandfqjamzkpttslildlrkjoyrpxugiceahgiakevsjoadmkfnkswrawkjxwcmcciabzbrskzazjqtlkiqydptpkcsdgcqjshzndpvannrywfrnrghljjqrxpxnlkcwdpdkswvtxganwwyoosxtnexeezjxouyfjhnwpqfxexzxfolpcfblpncetyhtrwxkbosccskxbuvcrosavnpxzoeoyyghbbqkflsutpwmhqwkvirmlfcpidlqyikzmnttaifcbopnwezesomkxhaiafmvkbjaisyrbtultpnxbcjmornqumatserhieqggrivouwfnbnghdfallcprvngikcamvprzaeapqmilwkbkgogocniaaisorfqxzjztvcgvzlcedwnezbwxmpobmrvxaskwvvwquudrnwhmmzheqxiwhfuxavlwftgyxxhpygspvwdnvmgnwnpkdrnznzvrkmjjmwisyrdkodoafwsjfuvmeewpdwpiymwbhoxebjibxphiefgtsawcdivtltrshjqnkkmdtjgs'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 14,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "4156d9974bf44040",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/13//#testresult/4156d9974bf44040",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1620337182821,
+          "stop" : 1620337182821,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ef14478005976751",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/12//#testresult/ef14478005976751",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1620336414844,
+          "stop" : 1620336414844,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "888a5c5a8df303d7",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/11//#testresult/888a5c5a8df303d7",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1619847742333,
+          "stop" : 1619847742333,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1caa476454ac211f",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/10//#testresult/1caa476454ac211f",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1619385773120,
+          "stop" : 1619385773120,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cee1e8a382daa45c",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/9//#testresult/cee1e8a382daa45c",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1619383769420,
+          "stop" : 1619383769421,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3a3a59008f759f31",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/8//#testresult/3a3a59008f759f31",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1619383741194,
+          "stop" : 1619383741194,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "43528fce88e963a7",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/7//#testresult/43528fce88e963a7",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1619266377876,
+          "stop" : 1619266377876,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4100d223b3e3d167",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/6//#testresult/4100d223b3e3d167",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618947416690,
+          "stop" : 1618947416690,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "636152c51d21a06e",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/5//#testresult/636152c51d21a06e",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618941875430,
+          "stop" : 1618941875431,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7e091f7ee31113c",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/4//#testresult/7e091f7ee31113c",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618940594700,
+          "stop" : 1618940594700,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "52d506ed632e4a26",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/3//#testresult/52d506ed632e4a26",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618939645484,
+          "stop" : 1618939645485,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d283aefdefcbccd6",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/d283aefdefcbccd6",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618933916053,
+          "stop" : 1618933916053,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "67e2caf4691bd2ba",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/67e2caf4691bd2ba",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618612339029,
+          "stop" : 1618612339029,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "313622e129d9e100.json",
+  "parameterValues" : [ "'mzbmweyydiadtlcouegmdbyfwurpwbpuvhifnuapwyndmhtqvkgkbhtytszotwflegsjzzszfwtzfpnscguemwrczqxycivdqnkypnxnnpmuduhznoaquudhavrncwfwujpcmiggjmcmkkbnjfeodxkgjgwxtrxingiqquhuwqhdswxxrxuzzfhkplwunfagppcoildagktgdarveusjuqfistulgbglwmfgzrnyxryetwzhlnfewczmnoozlqatugmdjwgzcfabbkoxyjxkatjmpprswkdkobdagwdwxsufeesrvncbszcepigpbzuzoootorzfskcwbqorvwdrmklfdczatfarqdkelalxzxillkfdvpfpxabqlngdscrentzamztvvcvrtcmbqlizijdwtuyfrxolsysxlfebpolcmqsppmrfkyunydtmwbexsngxhwvroandfqjamzkpttslildlrkjoyrpxugiceahgiakevsjoadmkfnkswrawkjxwcmcciabzbrskzazjqtlkiqydptpkcsdgcqjshzndpvannrywfrnrghljjqrxpxnlkcwdpdkswvtxganwwyoosxtnexeezjxouyfjhnwpqfxexzxfolpcfblpncetyhtrwxkbosccskxbuvcrosavnpxzoeoyyghbbqkflsutpwmhqwkvirmlfcpidlqyikzmnttaifcbopnwezesomkxhaiafmvkbjaisyrbtultpnxbcjmornqumatserhieqggrivouwfnbnghdfallcprvngikcamvprzaeapqmilwkbkgogocniaaisorfqxzjztvcgvzlcedwnezbwxmpobmrvxaskwvvwquudrnwhmmzheqxiwhfuxavlwftgyxxhpygspvwdnvmgnwnpkdrnznzvrkmjjmwisyrdkodoafwsjfuvmeewpdwpiymwbhoxebjibxphiefgtsawcdivtltrshjqnkkmdtjgs'" ]
+}
