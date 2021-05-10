@@ -1,0 +1,243 @@
+{
+  "uid" : "c83eb4254ca8236",
+  "name" : "test_the_gcd_function[bababbabbabbabaabbbbbaabbababbbbbbbbbbbbaaabababbbaababaaaaaaabbbbaabbabbaaabbaaaabaabbabbabbabbbbbaaaabbbabbaababaabaabbbaaaabbbbbbbabbbbbbbbbbaababbabaaabbbababbbaabaabaaaabbbaabaabbbbbabbbbbbabaabbbaabbabaababbabbaabbaabbaabababaaabbabbaabbbbabaabaabaabbabaaabababbbabaaabaabaaaabbbbbaaaaaabaababbbbabbabaabaaabbbbabbaaaababbbaabbbbaaabaabbabbbaabaabaabaabaababbbbbbbbaaaaaabbbaaabaaaaaaaabbababbabababbabbbbbaaaabababbbbbbbaaaaaabaababbbbaabbabaaabbbabbbaaabaabaabbabaaabbabbbbabaabbaaabbabbaaaabaaababbabaaabbaaaabbabbaabbabaabbbabbbbabbaabbabbbaaaabbaabbbabbabbababbaabbaaaabbabbabbbbaaabaabaaaabbaaabaababbabbabbbbbaabaaabbaaabaaabaabbbbbaabaabaaabbaabbaababbbbaabbbabbbbbbaabbabbbabbaaaabaabbaaaabaaabbababbabbbbabbaaaaaabbabbbaabbbbbbaaabbaaaaaabbabbabbbbbaabaabababbbbbabaabbbbbababaababaaaabbabaabbabbaabbababaababbababbaabaaaababbaaabbbaaaabbaaaabaaababbbbbbbbabaaaabbaaaabaabbababbbbbaaaaabaabbbaaababbbabaaababaabaabbaababbbabaabbabababbaaabaaaaabaaabbbabaaaaababaabbbbbbaabbabababbabab]",
+  "fullName" : "src.test.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction.test_the_gcd_function#test_the_gcd_function",
+  "historyId" : "239e8f2959074b654e5e03bb9f3467b9",
+  "time" : {
+    "start" : 1620661913231,
+    "stop" : 1620661913231,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+  "statusTrace" : "input = 'bababbabbabbabaabbbbbaabbababbbbbbbbbbbbaaabababbbaababaaaaaaabbbbaabbabbaaabbaaaabaabbabbabbabbbbbaaaabbbabbaababaab...aabaabbababbbbbaaaaabaabbbaaababbbabaaababaabaabbaababbbabaabbabababbaaabaaaaabaaabbbabaaaaababaabbbbbbaabbabababbabab'\n\n    @pytest.mark.parametrize(\"input\", test_data)\n    def test_the_gcd_function(input: str):\n>       assert 1 == the_gcd_function(input)\nE       TypeError: the_gcd_function() takes 0 positional arguments but 1 was given\n\nsrc/test/java/challenges/competitive/JanuaryCircuits21/a02TheGCDFunction/test_the_gcd_function.py:22: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction"
+  }, {
+    "name" : "suite",
+    "value" : "test_the_gcd_function"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-354"
+  }, {
+    "name" : "thread",
+    "value" : "2441-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.challenges.competitive.JanuaryCircuits21.a02TheGCDFunction.test_the_gcd_function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "input",
+    "value" : "'bababbabbabbabaabbbbbaabbababbbbbbbbbbbbaaabababbbaababaaaaaaabbbbaabbabbaaabbaaaabaabbabbabbabbbbbaaaabbbabbaababaabaabbbaaaabbbbbbbabbbbbbbbbbaababbabaaabbbababbbaabaabaaaabbbaabaabbbbbabbbbbbabaabbbaabbabaababbabbaabbaabbaabababaaabbabbaabbbbabaabaabaabbabaaabababbbabaaabaabaaaabbbbbaaaaaabaababbbbabbabaabaaabbbbabbaaaababbbaabbbbaaabaabbabbbaabaabaabaabaababbbbbbbbaaaaaabbbaaabaaaaaaaabbababbabababbabbbbbaaaabababbbbbbbaaaaaabaababbbbaabbabaaabbbabbbaaabaabaabbabaaabbabbbbabaabbaaabbabbaaaabaaababbabaaabbaaaabbabbaabbabaabbbabbbbabbaabbabbbaaaabbaabbbabbabbababbaabbaaaabbabbabbbbaaabaabaaaabbaaabaababbabbabbbbbaabaaabbaaabaaabaabbbbbaabaabaaabbaabbaababbbbaabbbabbbbbbaabbabbbabbaaaabaabbaaaabaaabbababbabbbbabbaaaaaabbabbbaabbbbbbaaabbaaaaaabbabbabbbbbaabaabababbbbbabaabbbbbababaababaaaabbabaabbabbaabbababaababbababbaabaaaababbaaabbbaaaabbaaaabaaababbbbbbbbabaaaabbaaaabaabbababbbbbaaaaabaabbbaaababbbabaaababaabaabbaababbbabaabbabababbaaabaaaaabaaabbbabaaaaababaabbbbbbaabbabababbabab'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 18,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "e80f5aeb1f7ea312",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/17//#testresult/e80f5aeb1f7ea312",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1620639126308,
+          "stop" : 1620639126309,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4d3f03c7415ce910",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/16//#testresult/4d3f03c7415ce910",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1620426847269,
+          "stop" : 1620426847269,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "68c321547a0bfacf",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/15//#testresult/68c321547a0bfacf",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1620396982605,
+          "stop" : 1620396982605,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d0f567779d2b5dfb",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/14//#testresult/d0f567779d2b5dfb",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1620394206429,
+          "stop" : 1620394206430,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "381b6f02d8c20909",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/13//#testresult/381b6f02d8c20909",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1620337182817,
+          "stop" : 1620337182817,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "684095df06df8425",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/12//#testresult/684095df06df8425",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1620336414840,
+          "stop" : 1620336414840,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9b10eee53df2870e",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/11//#testresult/9b10eee53df2870e",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1619847742328,
+          "stop" : 1619847742328,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "357a8d736ff17737",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/10//#testresult/357a8d736ff17737",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1619385773116,
+          "stop" : 1619385773116,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5f8b60ec07dcf59d",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/9//#testresult/5f8b60ec07dcf59d",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1619383769417,
+          "stop" : 1619383769417,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f62e5da06ccb0ceb",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/8//#testresult/f62e5da06ccb0ceb",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1619383741190,
+          "stop" : 1619383741191,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "30cb02cdf73f9eda",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/7//#testresult/30cb02cdf73f9eda",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1619266377873,
+          "stop" : 1619266377873,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8ba306da2e8f5d4a",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/6//#testresult/8ba306da2e8f5d4a",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618947416686,
+          "stop" : 1618947416686,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a2a9e88569022be6",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/5//#testresult/a2a9e88569022be6",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618941875427,
+          "stop" : 1618941875427,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "61e7efa3f4315478",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/4//#testresult/61e7efa3f4315478",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618940594696,
+          "stop" : 1618940594696,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "392ab9536b5bd452",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/3//#testresult/392ab9536b5bd452",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618939645480,
+          "stop" : 1618939645480,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3fc7f8fefacf4cd3",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/2//#testresult/3fc7f8fefacf4cd3",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618933916051,
+          "stop" : 1618933916051,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "658bc23fef4c1030",
+        "reportUrl" : "https://apetrovskiy.github.io/testHaEa/1//#testresult/658bc23fef4c1030",
+        "status" : "broken",
+        "statusDetails" : "TypeError: the_gcd_function() takes 0 positional arguments but 1 was given",
+        "time" : {
+          "start" : 1618612339025,
+          "stop" : 1618612339025,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c83eb4254ca8236.json",
+  "parameterValues" : [ "'bababbabbabbabaabbbbbaabbababbbbbbbbbbbbaaabababbbaababaaaaaaabbbbaabbabbaaabbaaaabaabbabbabbabbbbbaaaabbbabbaababaabaabbbaaaabbbbbbbabbbbbbbbbbaababbabaaabbbababbbaabaabaaaabbbaabaabbbbbabbbbbbabaabbbaabbabaababbabbaabbaabbaabababaaabbabbaabbbbabaabaabaabbabaaabababbbabaaabaabaaaabbbbbaaaaaabaababbbbabbabaabaaabbbbabbaaaababbbaabbbbaaabaabbabbbaabaabaabaabaababbbbbbbbaaaaaabbbaaabaaaaaaaabbababbabababbabbbbbaaaabababbbbbbbaaaaaabaababbbbaabbabaaabbbabbbaaabaabaabbabaaabbabbbbabaabbaaabbabbaaaabaaababbabaaabbaaaabbabbaabbabaabbbabbbbabbaabbabbbaaaabbaabbbabbabbababbaabbaaaabbabbabbbbaaabaabaaaabbaaabaababbabbabbbbbaabaaabbaaabaaabaabbbbbaabaabaaabbaabbaababbbbaabbbabbbbbbaabbabbbabbaaaabaabbaaaabaaabbababbabbbbabbaaaaaabbabbbaabbbbbbaaabbaaaaaabbabbabbbbbaabaabababbbbbabaabbbbbababaababaaaabbabaabbabbaabbababaababbababbaabaaaababbaaabbbaaaabbaaaabaaababbbbbbbbabaaaabbaaaabaabbababbbbbaaaaabaabbbaaababbbabaaababaabaabbaababbbabaabbabababbaaabaaaaabaaabbbabaaaaababaabbbbbbaabbabababbabab'" ]
+}
